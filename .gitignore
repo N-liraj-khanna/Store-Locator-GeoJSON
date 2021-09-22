@@ -9,7 +9,7 @@
 *.mdb
 *.pdb
 *.sqlite3
-
+.env
 ### Node ###
 # Logs
 logs

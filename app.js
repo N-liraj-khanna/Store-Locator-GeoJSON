@@ -4,11 +4,12 @@ const path=require('path');
 const cors=require('cors');
 const dotenv=require('dotenv');
 const routes=require('./router/routes');
+const connectDB=require('./config/db');
 
 /*********************************** Config ***********************************/
 // Load variables in env file
 dotenv.config({path: './config/config.env'});
-
+connectDB();
 
 /*********************************** Constants ***********************************/
 const PORT = process.env.PORT || 5000;
