@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Store Locator-Add store</title>
+</head>
+<body>
+  <div class="container my-3">
+    <h1 class="display-4 text-center"><i class="fas fa-map-marked mr-4"></i>Add Store</h1>
+    
+    <form id="store-form">
+
+      <label for="store-id" class="mt-4 form-label">Store ID: </label>
+      <input required type="text" class="form-control" name="storeId" id="store-id" placeholder="ID Goes here...">
+
+      <label for="store-address" class="mt-4 form-label">Store Address: </label>
+      <input required type="text" class="form-control" name="address" id="store-address" placeholder="Address Goes here...">
+    
+      <button type="submit" style="width:100%" class="mt-4 btn btn-success mb-4">Add Store</button>
+    </form>
+  </div>
+</body>
+<script src="add-store.js"></script>
+</html>
