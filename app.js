@@ -36,5 +36,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 /*********************************** General ***********************************/
 app.listen(PORT, () =>{
-  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`);
+  console.log(`Server running in ${process.env.NODE_ENV || "development"} mode on port ${process.env.PORT}`);
 });
