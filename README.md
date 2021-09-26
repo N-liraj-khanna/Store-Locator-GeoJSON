@@ -46,9 +46,9 @@ YOU'RE GOOD TO GO ...
 
 ## Screenshots
 ____
-![1.png](Screenshots/1.png)
+![1.png](ScreenShots/1.png)
 
-![2.png](Screenshots/2.png)
+![2.png](ScreenShots/2.png)
 
 ## Built Using 
 ___
