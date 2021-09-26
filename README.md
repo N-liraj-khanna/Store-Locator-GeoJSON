@@ -17,7 +17,7 @@ ___
 
 ### This is A Simple Store (actually any place) Locator.
 
-> This application is built focused on API requests, fetching data and rendering it appropriately. This application simply just takes in an ID or a Title as you wish and the address of any place as you need and store it in the MAP in home page. With the address, it finds it's coordinates (Latitude/Longitude) using Node-Geocoder Package, and with the coordinates it plots that coordinates in the MAP using MapQuest API, and that is being stored in the database, which can be used to locate the required location easily. 
+> This application is built focused on API requests, fetching data and rendering it appropriately. This application simply just takes in an ID or a Title as you wish and the address of any place as you need and store it in the MAP in home page. With the address, it finds it's coordinates (Latitude/Longitude) using Node-Geocoder Package, and with the coordinates it plots it in the MAP using MapQuest API, and that is being stored in the database, which can be used to locate the required location easily. 
 
 > Note: The ID/Title should not clash/be same as any previously saved locations.
 
